@@ -1,0 +1,26 @@
+# Environment & Secret Keys (DO NOT COMMIT)
+.env
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Streamlit Local Configuration
+.streamlit/
+
+# Saved Reports (Optional)
+reports/*.txt
+!reports/.gitkeep
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
