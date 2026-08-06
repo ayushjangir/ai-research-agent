@@ -1,4 +1,4 @@
-# 🤖 Autonomous AI Research Agent
+# Autonomous AI Research Agent
 
 An end-to-end autonomous research agent powered by **LangGraph**, **Groq LLM (llama-3.3-70b-versatile)**, **Tavily Search API**, and **Streamlit UI**. 
 
@@ -6,7 +6,7 @@ The agent runs a stateful ReAct (Reasoning + Acting) loop with search memory, sc
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 1. **Groq LLM Powered**: Uses Groq's ultra-fast free API with `llama-3.3-70b-versatile` for tool-calling and reasoning.
 2. **Three Specialized Tools**:
@@ -25,7 +25,7 @@ The agent runs a stateful ReAct (Reasoning + Acting) loop with search memory, sc
 
 ---
 
-## 📐 Agent Flow Diagram
+## Agent Flow Diagram
 
 ```mermaid
 graph TD
@@ -52,7 +52,7 @@ graph TD
 
 ---
 
-## 🚀 Project Build Roadmap
+## Project Build Roadmap
 
 - [x] **Step 1: Single Agent & Web Search Tool**: Integrated Tavily API search tool returning web results.
 - [x] **Step 2: Confirm ReAct Loop**: Implemented LangGraph state graph with conditional edges.
@@ -110,7 +110,7 @@ TAVILY_API_KEY=your_tavily_api_key_here
 
 ---
 
-## 💻 Running the Application
+## Running the Application
 
 ### Option A: Launch Streamlit Web UI (Recommended)
 ```bash
@@ -129,7 +129,7 @@ python cli.py --test-tools
 
 ---
 
-## ☁️ Deploying on Streamlit Cloud
+## Deploying on Streamlit Cloud
 
 1. Push this repository to **GitHub**.
 2. Visit [Streamlit Community Cloud](https://share.streamlit.io/).
