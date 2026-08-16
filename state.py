@@ -7,6 +7,7 @@ from langchain_core.messages import BaseMessage
 from langgraph.graph.message import add_messages
 
 
+
 class ResearchState(TypedDict):
     """
     State dictionary maintaining agent context across ReAct reasoning steps.
