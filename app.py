@@ -16,7 +16,7 @@ load_dotenv()
 st.set_page_config(page_title="AI Research Agent", page_icon="🔍", layout="wide")
 
 st.title("🤖 Autonomous AI Research Agent")
-st.caption("Powered by Groq (`openai/gpt-oss-20b`) + LangGraph + Tavily Search")
+st.caption("Powered by Groq (`openai/gpt-oss-120b`) + LangGraph + Tavily Search")
 
 # Sidebar Configuration
 
