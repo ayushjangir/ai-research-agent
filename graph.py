@@ -1,6 +1,6 @@
 """
 LangGraph ReAct Research Agent with State Memory and Tool Calling.
-Powered by Groq LLM (openai/gpt-oss-20b).
+Powered by Groq LLM (openai/gpt-oss-120b).
 """
 import os
 from typing import Dict, Any, Optional
