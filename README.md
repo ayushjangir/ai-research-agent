@@ -1,6 +1,6 @@
 # 🤖 Autonomous AI Research Agent
 
-An autonomous research agent built with **LangGraph**, **Groq (`openai/gpt-oss-20b`)**, **Tavily Search**, and **Streamlit**.
+An autonomous research agent built with **LangGraph**, **Groq (`openai/gpt-oss-120b`)**, **Tavily Search**, and **Streamlit**.
 
 The agent runs a stateful **ReAct (Reasoning + Acting) loop** with search memory, summarizes web pages, requires **Human-in-the-Loop (HITL)** approval before saving reports, and visualizes live progress in Streamlit.
 
@@ -30,7 +30,7 @@ graph TD
 
 ## 🌟 Key Features
 
-1. **Groq Speed**: Powered by `openai/gpt-oss-20b` for ultra-fast, free agentic reasoning.
+1. **Groq Speed**: Powered by `openai/gpt-oss-120b` for ultra-fast, free agentic reasoning.
 2. **3 Essential Tools**:
    - 🔍 `tavily_search`: Searches the web for live sources.
    - 🌐 `summarize_url`: Scrapes and summarizes web pages.
@@ -71,7 +71,7 @@ Edit `.env` (or set them directly in the Streamlit UI):
 ```ini
 GROQ_API_KEY=gsk_your_groq_api_key_here
 TAVILY_API_KEY=tvly-your_tavily_api_key_here
-GROQ_MODEL=openai/gpt-oss-20b
+GROQ_MODEL=openai/gpt-oss-120b
 
 # Optional: LangSmith Tracing
 LANGCHAIN_TRACING_V2=true
