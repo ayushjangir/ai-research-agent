@@ -36,7 +36,7 @@ with st.sidebar:
         help="Get your free key at https://tavily.com"
     )
 
-    st.info("Model: **`openai/gpt-oss-20b`**")
+    st.info("Model: **`openai/gpt-oss-120b`**")
 
     # Sync keys to environment
     if groq_api_key:
