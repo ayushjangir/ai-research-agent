@@ -14,9 +14,9 @@ from tavily import TavilyClient
 
 
 def get_groq_llm():
-    """Helper to get ChatGroq instance with openai/gpt-oss-20b."""
+    """Helper to get ChatGroq instance with openai/gpt-oss-120b."""
     return ChatGroq(
-        model=os.getenv("GROQ_MODEL", "openai/gpt-oss-20b"),
+        model=os.getenv("GROQ_MODEL", "openai/gpt-oss-120b"),
         groq_api_key=os.getenv("GROQ_API_KEY"),
         temperature=0.2,
     )
